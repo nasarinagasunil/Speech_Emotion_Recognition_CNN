@@ -1,7 +1,4 @@
-# Speech Emotion Recognition using CNN
-Here's the updated **README** with the new Table of Contents, including **Model Architecture: Feature extraction like ZCR, MFCC, RMSE, and CNN architecture** and **Datasets used**:
 
----
 
 # Speech Emotion Recognition using CNN
 
