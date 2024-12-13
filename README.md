@@ -8,7 +8,7 @@ This project aims to build a **Speech Emotion Recognition (SER)** system using *
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
 3. [Installation](#installation)
-4. [Model Architecture:](#model-architecture-feature-extraction-zcr-mfcc-rmse-and-cnn-architecture)
+4. [Model Architecture:](#model-architecture)
 5. [Datasets Used](#datasets-used)
 6. [Evaluation](#evaluation)
 7. [Contributing](#contributing)
