@@ -2,13 +2,13 @@
 
 # Speech Emotion Recognition using CNN
 
-This project aims to build a **Speech Emotion Recognition (SER)** system using **Convolutional Neural Networks (CNNs)**. The system classifies emotions from speech signals, providing a solution for various applications such as virtual assistants, mental health monitoring, and human-computer interaction.
+This project aims to build a **Speech Emotion Recognition (SER)** system using **Convolutional Neural Networks (CNNs)**. The system classifies various emotions like **Neutral, Happy, Angry, Sad, Fear, Disgust, Surprise** from speech signals, providing a solution for various applications such as virtual assistants, mental health monitoring, and human-computer interaction.
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
 3. [Installation](#installation)
-4. [Model Architecture: Feature Extraction (ZCR, MFCC, RMSE) and CNN Architecture](#model-architecture-feature-extraction-zcr-mfcc-rmse-and-cnn-architecture)
+4. [Model Architecture:](#model-architecture-feature-extraction-zcr-mfcc-rmse-and-cnn-architecture)
 5. [Datasets Used](#datasets-used)
 6. [Evaluation](#evaluation)
 7. [Contributing](#contributing)
@@ -52,7 +52,7 @@ To run this project locally, follow these steps:
    - `numpy`
    - `pandas`
 
-## Model Architecture: Feature Extraction (ZCR, MFCC, RMSE) and CNN Architecture
+## Model Architecture: 
 
 ### **Feature Extraction**:
 The model extracts several key audio features to facilitate emotion recognition:
