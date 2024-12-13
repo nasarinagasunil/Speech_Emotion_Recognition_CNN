@@ -74,8 +74,8 @@ The model has been optimized through extensive hyperparameter tuning to achieve 
 
 The following datasets were used to train and evaluate the model:
 
-- **RAVDESS **
-- **TESS **
+- **RAVDESS**
+- **TESS**
 - **CREMA**
 - **SAVEE**
 These datasets are preprocessed to extract features and generate labels corresponding to emotional classes.
