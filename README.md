@@ -12,7 +12,7 @@ This project aims to build a **Speech Emotion Recognition (SER)** system using *
 5. [Datasets Used](#datasets-used)
 6. [Evaluation](#evaluation)
 7. [Contributing](#contributing)
-8. [License](#license)
+
 
 ## Introduction
 
@@ -38,12 +38,9 @@ To run this project locally, follow these steps:
    ```
 
 2. **Install Dependencies**
-   You can install the required dependencies using **pip**:
+   You can install the required dependencies:
    ```bash
-   pip install -r requirements.txt
    ```
-
-   This will install necessary libraries such as:
    - `tensorflow`
    - `librosa`
    - `streamlit`
@@ -77,19 +74,27 @@ The model has been optimized through extensive hyperparameter tuning to achieve 
 
 The following datasets were used to train and evaluate the model:
 
-- **RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)**: A database containing emotional speech recordings, categorized into emotions like happy, sad, angry, fearful, etc.
-- **TESS (Toronto Emotional Speech Set)**: A dataset of emotional speech samples in different emotional categories.
-- **EMO-DB (Berlin Database of Emotional Speech)**: Contains German speech data with labeled emotions.
+- **RAVDESS **
+- **TESS **
+- **CREMA**
+- **SAVEE**
+These datasets are preprocessed to extract features and generate labels corresponding to emotional classes.
+### Emotion Classes
 
-These datasets provide a wide range of emotional speech data for training and testing the SER model.
+   - Neutral
+   - Happy
+   - Sad
+   - Angry
+   - Fear
+   - Disgust
+   - Surprise
 
 ## Evaluation
 
 The model was evaluated on benchmark datasets, achieving high accuracy in emotion classification. The following performance metrics were considered:
-- **Accuracy**: Percentage of correct predictions.
-- **Precision, Recall, F1-Score**: Classification metrics to evaluate the performance for each emotion class.
+- **Accuracy**: 80%
+- **Loss**: 40%
 
-The model demonstrated state-of-the-art performance in classifying emotions like **happy**, **sad**, **angry**, and **neutral**.
 
 ## Contributing
 
@@ -100,10 +105,3 @@ Contributions to this project are welcome! Please follow these steps to contribu
 4. Push to the branch (`git push origin feature-name`).
 5. Open a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you need any more adjustments or additions!
